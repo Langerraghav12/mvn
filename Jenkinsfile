@@ -7,7 +7,7 @@ jdk 'JDK'
 stages {
 stage('Checkout') {
 steps {
-git branch: ‘master’, url: 'https://github.com/Langerraghav12/mvn.git'
+git branch: 'master', url: 'https://github.com/Langerraghav12/mvn.git'
 }
 }
 stage('Build') {
